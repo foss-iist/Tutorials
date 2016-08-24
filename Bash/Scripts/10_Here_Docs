@@ -1,0 +1,15 @@
+#! /bin/sh
+
+cat <<!FUNKY!
+hello
+this is a here
+document
+!FUNKY!
+
+gnuplot -p<<EOF
+set grid
+set zeroax lt -1
+plot sin(x)
+EOF
+
+exit 0

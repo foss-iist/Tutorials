@@ -1,0 +1,8 @@
+LATEX=pdflatex
+DOC=BashTut_IISTFOSS
+all: $(DOC).pdf
+$(DOC).pdf: $(DOC).tex
+	$(LATEX) $^ && $(LATEX) $^
+.PHONY: clean
+clean:
+	rm -f $(DOC).pdf

@@ -1,0 +1,6 @@
+I am a parent.
+My PID is 4672.
+My Child's PID is 4673.
+I am a child.
+My PID is 4673.
+My Parent's PID is 4672.

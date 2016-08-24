@@ -1,0 +1,11 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Syntaxes and Examples}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{Variables}{8}{0}{2}
+\beamer@subsectionintoc {2}{2}{An Example}{8}{0}{2}
+\beamer@subsectionintoc {2}{3}{Parameters}{13}{0}{2}
+\beamer@subsectionintoc {2}{4}{Conditionals}{14}{0}{2}
+\beamer@subsectionintoc {2}{5}{Loops}{18}{0}{2}
+\beamer@subsectionintoc {2}{6}{Lists}{22}{0}{2}
+\beamer@subsectionintoc {2}{7}{Functions}{23}{0}{2}
+\beamer@subsectionintoc {2}{8}{Commands}{24}{0}{2}

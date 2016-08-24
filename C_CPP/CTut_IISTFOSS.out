@@ -1,0 +1,16 @@
+\BOOKMARK [2][]{Outline0.1}{Introduction}{}% 1
+\BOOKMARK [3][]{Outline0.1.1.4}{Programming Language Fundamentals}{Outline0.1}% 2
+\BOOKMARK [3][]{Outline0.1.2.19}{The Compile-Link Build process of C}{Outline0.1}% 3
+\BOOKMARK [2][]{Outline0.2}{C Programming Fundamentals}{}% 4
+\BOOKMARK [3][]{Outline0.2.1.22}{Libraries}{Outline0.2}% 5
+\BOOKMARK [3][]{Outline0.2.2.23}{File Streams}{Outline0.2}% 6
+\BOOKMARK [3][]{Outline0.2.3.27}{Functions}{Outline0.2}% 7
+\BOOKMARK [3][]{Outline0.2.4.31}{Miscellaneous Basics}{Outline0.2}% 8
+\BOOKMARK [2][]{Outline0.3}{C Programming Not-So-Fundamentals}{}% 9
+\BOOKMARK [3][]{Outline0.3.1.43}{Pre-Processors}{Outline0.3}% 10
+\BOOKMARK [3][]{Outline0.3.2.49}{Parsing Command-Line Arguments}{Outline0.3}% 11
+\BOOKMARK [3][]{Outline0.3.3.58}{Piping In and Piping Out}{Outline0.3}% 12
+\BOOKMARK [3][]{Outline0.3.4.60}{Processes and Pipes}{Outline0.3}% 13
+\BOOKMARK [3][]{Outline0.3.5.68}{Working with POSIX Threads}{Outline0.3}% 14
+\BOOKMARK [3][]{Outline0.3.6.73}{Programming With Class}{Outline0.3}% 15
+\BOOKMARK [2][]{Outline0.4}{Some Useful Libraries}{}% 16

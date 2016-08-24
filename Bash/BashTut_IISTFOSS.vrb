@@ -1,0 +1,32 @@
+\frametitle{Here Docs}\framesubtitle {Write a script right here}
+  \begin{itemize}
+  \item In some situations, we might want to execute a script from
+    another interpreter and we would like to have the script in the
+    current one itself
+  \item The \verb|here documents| come to our rescue. We set the
+    program to be called, and an end string. All text written in
+    between the first call and the end string are passed into the
+    interpreter specified\\
+    \begin{columns}
+      \begin{column}{0.35\textwidth}
+        \textbf{cat}\\
+\begin{verbatim}
+cat <<!FUNKY!
+hello
+this is a here
+document
+!FUNKY!
+\end{verbatim}
+      \end{column}
+      \begin{column}{0.35\textwidth}
+        \textbf{gnuplot}\\
+\begin{verbatim}
+gnuplot -p<<EOF
+set grid
+set zeroax lt -1
+plot sin(x)
+EOF
+\end{verbatim}
+      \end{column}
+    \end{columns}
+  \end{itemize}

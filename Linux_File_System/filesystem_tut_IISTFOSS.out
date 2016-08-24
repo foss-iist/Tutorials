@@ -1,0 +1,12 @@
+\BOOKMARK [2][]{Outline0.2}{Introduction}{}% 1
+\BOOKMARK [2][]{Outline0.3}{Filesystem structure in Linux}{}% 2
+\BOOKMARK [3][]{Outline0.3.1.6}{/ - Root }{Outline0.3}% 3
+\BOOKMARK [3][]{Outline0.3.2.11}{/bin - User binaries}{Outline0.3}% 4
+\BOOKMARK [3][]{Outline0.3.3.18}{/dev - Device files}{Outline0.3}% 5
+\BOOKMARK [3][]{Outline0.3.4.22}{/etc - System Config}{Outline0.3}% 6
+\BOOKMARK [3][]{Outline0.3.5.25}{/home - User home directories}{Outline0.3}% 7
+\BOOKMARK [3][]{Outline0.3.6.29}{/lib - Library and Kernel modules}{Outline0.3}% 8
+\BOOKMARK [3][]{Outline0.3.7.31}{/media Mount point}{Outline0.3}% 9
+\BOOKMARK [3][]{Outline0.3.8.35}{/proc - A virtual Filesystem}{Outline0.3}% 10
+\BOOKMARK [3][]{Outline0.3.9.39}{/usr User-share and Read-only data}{Outline0.3}% 11
+\BOOKMARK [3][]{Outline0.3.10.40}{/var, /tmp Variable data}{Outline0.3}% 12

@@ -1,0 +1,488 @@
+% Copyright 2004 by Till Tantau <tantau@users.sourceforge.net>.
+%
+% In principle, this file can be redistributed and/or modified under
+% the terms of the GNU Public License, version 2.
+%
+% However, this file is supposed to be a template to be modified
+% for your own needs. For this reason, if you use this file as a
+% template and not specifically distribute it as part of a another
+% package/program, I grant the extra permission to freely copy and
+% modify this file as you see fit and even to delete this copyright
+% notice. 
+
+\documentclass{beamer}
+% Replace the \documentclass declaration above
+% with the following two lines to typeset your 
+% lecture notes as a handout:
+%\documentclass{article}
+%\usepackage{beamerarticle}
+
+
+% There are many different themes available for Beamer. A comprehensive
+% list with examples is given here:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+% You can uncomment the themes below if you would like to use a different
+% one:
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{boxes}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{default}
+%\usetheme{Frankfurt}
+\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+%\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+\title{Primer on Text editting and more with GNU Emacs}
+
+% A subtitle is optional and this may be deleted
+\subtitle{3. Introduction to Scientific Computing with Linux\\Part II. Basic Tools}
+
+\author{Nidish Narayanaa B\inst{1}}% \and S.~Another\inst{2}}
+% - Give the names in the same order as the appear in the paper.
+% - Use the \inst{?} command only if the authors have different
+%   affiliation.
+
+\institute[Universities of Somewhere and Elsewhere] % (optional, but mostly needed)
+{
+  \inst{1}%
+  Department of Aerospace Engineering\\
+  Indian Institute of Space Science \& Technology, Trivandrum
+  }
+% - Use the \inst command only if there are several affiliations.
+% - Keep it simple, no one is interested in your street address.
+
+\date{FOSS Club, IIST, 2016}
+% - Either use conference name or its abbreviation.
+% - Not really informative to the audience, more for people (including
+%   yourself) who are reading the slides online
+
+\subject{EmacsTut_IISTFOSS}
+% This is only inserted into the PDF information catalog. Can be left
+% out. 
+
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+% \pgfdeclareimage[height=0.5cm]{university-logo}{university-logo-filename}
+% \logo{\pgfuseimage{university-logo}}
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection,currentsubsection]
+  \end{frame}
+}
+
+% Let's get started
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+  % You might wish to add the option [pausesections]
+\end{frame}
+
+% Section and subsections will appear in the presentation overview
+% and table of contents.
+\section{Introduction}
+
+\subsection{Text Editting - IDEs, Text Editors and Emacs}
+
+\begin{frame}{Text Editting}{IDEs, Text Editors and Emacs}
+  \begin{itemize}
+  \item {
+	As the need for computation grows, need for a comfortable workspace grows too
+  }
+  \item {
+	We present here the "advanced, self-
+documenting, customizable, extensible editor Emacs"\footnote{Richard Stallman, \emph{GNU Emacs Manual}, Ed 16, 2010 }
+  }
+  \item {
+  	It is one of the oldest and highly developed text editors out there
+  	}
+  \item {
+  	Innumerable text editors and more importantly, IDEs (for programmers) are out there - but why Emacs ?
+  	}
+  \end{itemize}
+\end{frame}
+
+\subsection{Some Flashy Stuff}
+\begin{frame}{Some flashy stuff}{Why Emacs?}
+\begin{block}{Tagline}<1->
+Advanced, Self-Documenting, Customizable and Extensible
+\end{block}
+\begin{itemize}
+\item<2-> {
+\emph{Advanced}, since Emacs can do much more than simple insertion and deletion - from automatic indentation and split screen modes to controlling subprocesses 
+}
+\item<3-> {
+\emph{Self-Documenting}, since there is an exhaustive documentation repository that comes with Emacs, which is expanded with each package that the user installs
+}
+\item<4-> {
+\emph{Customizable}, since the behavior of commands can easily be altered
+}
+\item<5-> {
+\emph{Extensible}, since you can go beyond simple customization and create your own commands
+}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Some Flashy Stuff}{How Emacs?}
+\begin{block}{Newsflash}<1->
+If you've not realized it already, you're almost always faster with your hands on the keyboard and off that wretched mouse ;)\\\uncover<2-> {Imagine productivity when you can stop rubbing on that thing!}
+\end{block}
+\begin{itemize}
+\item<3-> Emacs works with "commands" which are a sequence of keys with a preceding \textbf{C- (Command key; ctrl)} or an \textbf{M- (Meta ket; alt)}
+\item<3-> These commands are usually the shortcuts to pre-defined functions. \uncover<4->{Soon we shall learn how to create our own functions and assign commands}
+\item<5-> Emacs also doesn't come pre-loaded with all the features. \uncover<6->{Most of the advanced features are organized as separate \textbf{packages}}
+\end{itemize}
+\end{frame}
+
+\section{The Nitty-Gritties}
+\subsection{Basics}
+\subsubsection{Installation}
+% You can reveal the parts of a slide one at a time
+% with the \pause command:
+\begin{frame}{Installation}
+\begin{block}{Distribution}
+Although there are a lot of Emacs distributions, we highly recommend the \textbf{GNU Emacs} for Linux users and \textbf{Aquamax} for Mac users and the door for Windows users ;)
+\end{block}
+\begin{block}{Install}
+In ubuntu-based Linux distros, go to the terminal and type :
+\begin{quote}
+sudo apt-get install emacs24
+\end{quote}
+In Mac, make sure homebrew is available and go to the terminal and type,
+\begin{quote}
+brew install aquamax
+\end{quote}
+
+\end{block}
+\end{frame}
+
+\subsubsection{Basic Commands}
+\begin{frame}{Basic Commands}{The Primer}
+\begin{block}{CONTROL and META keys}<1->
+The two keys that enable emacs to distinguish a command from the user's text. \uncover<2->{By default, C and M are mapped to the \textbf{ctrl} and \textbf{alt} keys}
+\end{block}
+\begin{block}{The Emacs Lexicography}<3->
+\begin{itemize}
+\item<4->{$C-<chr>$ and $M-<chr>$ signify that we have to press the $<chr>$ character key while holding the CONTROL/META keys respectively}
+\item<5->{$M-<chr1>\,<chr2>$ signify that we have to press $<chr1>$ along with the META key and then press $<chr2>$ separately}
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Basic Commands}{Getting to Move around}
+\begin{block}{Moving around}
+Although I find myself comfortable with the arrow keys, the following are the inbuilt commands
+\end{block}
+\begin{description}
+\item[C-f and C-b] Move \textbf{f}orward or \textbf{b}ackward by a letter
+\pause
+\item[M-f and M-b] Move \textbf{f}orward or \textbf{b}ackward by a word
+\pause
+\item[C-n and C-p] Move to \textbf{n}ext or \textbf{p}revious line
+\pause
+\item[M-v and C-v] Move up or down pages
+\pause
+\item[C-a and C-e] Move to beginning or end of line
+\pause
+\item[M-a and M-e] Move to beginning or end of sentence
+\pause
+\item[C-l] Toggle where the text at the cursor should be on the screen (middle-top-bottom)
+\pause
+\item[C-/] Undo action
+\pause
+\item[C-u \#] Prefix this to any command and that command is executed "\#" number of times
+\pause
+\item[C-g] Stop executing commands\footnote{may have to hit it twice or thrice}
+\end{description}
+\end{frame}
+
+\begin{frame}{Basic Commands}{Text Editting}
+\begin{description}
+\item[C-d] Delete character
+\pause
+\item[M-d] Delete word from current point to end
+\pause
+\item[C-S-spc] Set mark to select text\footnote{S - Shift; spc - spacebar}
+\pause
+\item[C-k] Kill selected 
+\pause
+\item[C-w] Cut selected
+\pause
+\item[C-y] Yank, ie, Paste selected\footnote{deletions will not save the characters in the clipboard}
+\pause
+\item[C-s] Search for a regular expression (C-s to go to next occurrence; C-r to go to previous occurrence)
+\item[M-\%] Query replace a regular expression
+
+\end{description}
+
+\end{frame}
+
+\begin{frame}{Basic Commands}{Files and Buffers}
+\begin{description}
+\item[C-x C-f] Open a file - type the location and filename in the minibuffer
+\pause
+\item[C-x C-s] Save changes to the current file
+\pause
+\item[C-x C-c] End current session
+\end{description}
+\pause
+\begin{block}{Buffers}
+In Emacs, each file is opened in a buffer, which always exists in the background - Following are some commands to access and modify them
+\end{block}
+\pause
+\begin{description}
+\item[C-x b] Switch buffer - type the name of the buffer (if it's a file the name is the same as the filename) \uncover{Of course - it's got tab completion}
+\pause
+\item[C-x C-b] List all the buffers
+\pause
+\item[C-x k] Kill current buffer
+\end{description}
+\end{frame}
+
+\begin{frame}{Basic Commands}{Multiple Windows and Modes}
+\begin{description}
+\item[C-x 2] Create a new window horizontally
+\item[C-x 3] Create a new window vertically
+\item[C-x \{] Decrease width of current window (M-x shrink-window-horizontally)
+\item[C-x \}] Increase width of current window (M-x enlarge-window-horizontally)
+\item[C-x ] Increase height of current window (M-x enlarge-window)
+\end{description}
+\begin{block}{Modes}
+Emacs works in different modes - with each mode having its own set of commands apart from the above standard ones
+\end{block}
+\begin{description}
+\item[M-x c-mode] Mode for the C programming language
+\item[M-x shell-mode] Mode for shell-scripting
+\item[M-x gnuplot-mode] 
+..
+\end{description}
+\end{frame}
+
+\begin{frame}{Basic Commands}{Accessing Help}
+\begin{block}{Help Documentation}
+Emacs comes with a vast help documentation\\
+It even has its own "Starter's" tutorial - access with "C-h t" - Highly recommended!
+\end{block}
+\begin{description}
+\item[C-h ?] Display all the help options
+\item[C-h c ---] Get help about a specific command
+\item[C-h f ---] Get help about a specific function
+\item[C-h i] Read included manuals
+\end{description}
+
+\end{frame}
+
+\subsection{Intermediate}
+\begin{frame}{Intermediate Stuff}{Programming}
+\begin{block}{Program Compilation}
+If you have a makefile in the current directory, then using "C-x c" you can call the make command from inside emacs\\
+A separate window will be opened for you to view the compilation message.
+\end{block}
+\begin{block}{Shell Mode}
+Accessed with "M-x shell-mode", an instance of the shell is presented in a window inside emacs. Your experience will be some where between editting a text file and using the terminal. This, used as a second split screen, can be used to edit and execute a program side-by-side
+\end{block}
+\end{frame}
+
+\begin{frame}{Intermediate Stuff}{Programming}
+\begin{block}{Debugging with gdb}
+Although I personally prefer \emph{ddd} for interactive debugging, emacs has got a complete gdb environment, similar to that of gdb - with interactive code and variable displays
+\end{block}
+\begin{block}{Autocompletion}
+Add the following to your ~/.emacs file:
+\begin{quote}
+(require\,'package)\\
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))\\
+(when ($<$ emacs-major-version 24)\\
+(add-to-list 'package-archives '("gnu" . "http://elpa.gnu.org/packages/")))
+\end{quote}
+\end{block}
+\end{frame}
+
+\begin{frame}{Intermediate Stuff}{Programming}
+\begin{block}{Autocompletion}
+After this list all the packages (from the archives) with "M-x package-list-packages" and search for the auto-complete-mode packages and install the required ones either by selecting it or by typing "M-x package-install $<$package-name$>$". You will now be able to see the corresponding files in the ~/.emacs.d directory.
+\end{block}
+\end{frame}
+
+\begin{frame}{Intermediate Stuff}{User-defined commands}
+\begin{block}{Init File}
+The file ~/.emacs can be used to store commands that are to be called at the startup of each emacs session. These are in a flavor of LISP called Elisp.
+\end{block}
+\begin{block}{A heads up to Lisp}
+\begin{itemize}
+\item All LISP statements are enclosed in parantheses - ( statement ) - get used to looking at such code
+\item The basic format of a lisp program is,
+$$(\,<function\,name>\,var1\,var2\,var3\,...\,)$$
+\item Each statement has a return value; for example, y=sin(x) must be written as,
+$$(setq\,y\,(sin\,x))$$
+\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Intermediate Stuff}{A heads up to Lisp}
+\begin{quote}
+Lisp is not Case-Sensitive
+\end{quote}
+\begin{block}{Variable and Function Declarations}
+\begin{description}
+\item[Variable] \emph{defvar} for variable declaration,
+\begin{quote}
+(defvar \emph{x} 2)\\
+(defvar \emph{x} (read))
+\end{quote}
+
+The former declares a variable \emph{x} with value 2 and the latter declares a variable \emph{x} which will take value from stdin. To change the value of an already existing variable use (setq \emph{x} newval).
+\item[Function] \emph{defun} for function declaration,
+\begin{quote}
+(defun\,fname\,(*arg*)\\(format t "$\sim$a!\,$\sim$\%"\,*arg*))
+\end{quote}
+The function may be called by (fname var).
+\end{description}
+\end{block}
+\end{frame}
+
+\begin{frame}{Intermediate Stuff}{Back to Emacs}
+\begin{block}{Setting modes at startup}
+To enable/disable a mode at startup, say the menu-bar-mode (which displays a menu bar when enabled), use
+\begin{quote}
+(menu-bar-mode -1) - to disable\\
+(menu-bar-mode 1) - to enable
+\end{quote}
+\end{block}
+\begin{block}{Creating a new keybinding (Command)}
+This can be done in two ways.\\
+Suppose I want the shell to open up in the current window with "M-s RET" (RET denotes return - enter key), I would add,
+\begin{quote}
+(global-set-key "\textbackslash M-s RET" 'shell)\\
+or\\
+(global-set-key (kbd "M-s RET") 'shell)
+\end{quote}
+\end{block}
+\end{frame}
+
+\subsection{Org-Mode}
+\begin{frame}{The Org-Mode}{A goto tool for cataloging and tracking your activities}
+\begin{block}{Org-Mode}<1->
+An org file is saved as .org and you can use it to track your status in a project in a systematic fashion
+\end{block}
+\begin{block}{Headlines}<2->
+Prefixed with one or more "*"s these denote sections and subsections based on the number of "*", with the least having the highest preference
+\begin{quote}
+* Section 1\\
+** Subsection 1\\
+** Subsection 2\\
+* Section 2\\
+\end{quote}
+Use Tab and S-Tab to toggle subtree folding\\
+M-RET to insert new heading with same level as current\\
+There are other commands to shift the subtree up/down, etc
+\end{block}
+\end{frame}
+
+\begin{frame}{The Org-Mode}{A goto tool for cataloging and tracking your activities}
+\begin{block}{Lists}
+\begin{description}
+\item<1->[Ordered Lists] These may begin with 1), 2) .. or 1., 2., .. 
+\item<2->[Unordered Lists] These may begin with + - 
+\item<3->[Description Lists] Use :: to separate a text from its description
+\end{description}
+\end{block}
+\begin{block}{Tables}<4->
+Type the entries of the first row and hit "C-c RET" and the setup becomes a table automatically. Lines starting with "$|$-" are taken to be horizontal separators automatically - just hit "Tab" or "C-c C-c" to make it auto-indent at any point. The first row will have to be typed as,
+\begin{quote}
+$|$ name $|$ place $|$ animal $|$ things $|$\\
+$|$-$<TAB>$\\
+\end{quote}
+\end{block}
+\end{frame}
+% Placing a * after \section means it will not show in the
+% outline or table of contents.
+\section*{Summary}
+
+\begin{frame}{Summary}
+  \begin{itemize}
+  \item
+    We went through a few \alert{basic commands} in emacs to try and familiarize ourselves with the editor
+  \item
+    Then we looked at the \alert{basics of Lisp} to understand and better use the back end of Emacs
+  \item
+	Finally we looked at the Org-mode
+  \end{itemize}
+  
+  \begin{itemize}
+  \item
+    Outlook
+    \begin{itemize}
+    \item
+	  What we have here seen is just the tip of the ice berg - we learn more with time in tools like Emacs
+    \item
+      Please do keep in mind that this discussion is in no way meant to be exhaustive in any of the topics covered
+    \end{itemize}
+  \end{itemize}
+\end{frame}
+
+
+
+% All of the following is optional and typically not needed. 
+\appendix
+\section<presentation>*{\appendixname}
+\subsection<presentation>*{For Further Reading}
+
+\begin{frame}[allowframebreaks]
+  \frametitle<presentation>{For Further Reading}
+    
+  \begin{thebibliography}{10}
+    
+  \beamertemplatebookbibitems
+  % Start with overview books.
+
+  \bibitem{Richard Stallman}
+    R.M. Stallman
+    \newblock {\em GNU Emacs Manual}.
+    \newblock Free Software Foundation, 2010.
+    
+  \bibitem{Carsten Dominik}
+	C. Dominik
+    \newblock {\em The compact Org-mode Guide}.
+    \newblock Free Software Foundation, 2010.    
+ 
+  \bibitem{Carsten Dominik}
+	C. Dominik
+    \newblock {\em The Org Manual}.
+    \newblock Free Software Foundation, 2004.     
+
+  \end{thebibliography}
+\end{frame}
+
+\end{document}
+
+

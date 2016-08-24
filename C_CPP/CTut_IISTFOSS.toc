@@ -1,0 +1,19 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Programming Language Fundamentals}{4}{0}{1}
+\beamer@subsubsectionintoc {1}{1}{1}{Baring It All}{4}{0}{1}
+\beamer@subsubsectionintoc {1}{1}{2}{Interpreter and Compiler based languages}{18}{0}{1}
+\beamer@subsectionintoc {1}{2}{The Compile-Link Build process of C}{19}{0}{1}
+\beamer@sectionintoc {2}{C Programming Fundamentals}{21}{0}{2}
+\beamer@subsectionintoc {2}{1}{Libraries}{22}{0}{2}
+\beamer@subsectionintoc {2}{2}{File Streams}{23}{0}{2}
+\beamer@subsectionintoc {2}{3}{Functions}{27}{0}{2}
+\beamer@subsectionintoc {2}{4}{Miscellaneous Basics}{31}{0}{2}
+\beamer@sectionintoc {3}{C Programming Not-So-Fundamentals}{42}{0}{3}
+\beamer@subsectionintoc {3}{1}{Pre-Processors}{43}{0}{3}
+\beamer@subsectionintoc {3}{2}{Parsing Command-Line Arguments}{49}{0}{3}
+\beamer@subsectionintoc {3}{3}{Piping In and Piping Out}{58}{0}{3}
+\beamer@subsectionintoc {3}{4}{Processes and Pipes}{60}{0}{3}
+\beamer@subsectionintoc {3}{5}{Working with POSIX Threads}{68}{0}{3}
+\beamer@subsectionintoc {3}{6}{Programming With Class}{73}{0}{3}
+\beamer@sectionintoc {4}{Some Useful Libraries}{77}{0}{4}

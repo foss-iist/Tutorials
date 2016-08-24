@@ -1,0 +1,68 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<unistd.h>
+#include<wait.h>
+
+#define MESSAGE "Parent Message To Forked Process"
+
+int main()
+{
+  int filedes[2];
+
+  pid_t fpid;
+  int status;
+
+  if( pipe(filedes)<0 )
+    printf("Error Creating The Interprocess Communications Pipe\n");
+
+  fpid = fork();
+
+  if(fpid<0){
+    printf("Error Creating The New Process\n");
+
+    if(close(filedes[0])!=0)
+      printf("Error Closing File Descriptor 0\n");
+    if( close(filedes[1])!=0)
+      printf("Error Closing File Descriptor 1\n");
+  }
+  else if (fpid==0){
+    printf("Forked Process ID %d\n", getpid());
+    
+    if(close(filedes[1])!=0)
+      printf("Error closing file descriptor 0\n");
+
+    if(dup2(filedes[0],STDIN_FILENO)!=STDIN_FILENO)
+      printf("Error Duplicating file descriptor 0\n");
+    if(close(filedes[0])!=0)
+      printf("Error Closing File Descriptor 0\n");
+
+    if(execl("Child","Child",NULL)<0)
+      printf("Error Replacing This Process Image\n");
+  }
+  else
+    {
+      printf("Parent Process ID %d\n",getpid());
+
+      if(close(filedes[0])!=0)
+	printf("Error Closing Pipe\n");
+
+      sleep(1);
+      printf("Parent Process Writing '%s'\n", MESSAGE);
+
+      if(write(filedes[1],MESSAGE,sizeof(MESSAGE))<0)
+	printf("Error Writing To File Descriptor 1\n");
+      if(write(filedes[1],"\n",1)<0)
+	printf("Error Writing To File Descriptor 1\n");
+
+      printf("Parent Process Waiting For Forked Process\n");
+
+      if(wait(&status)==fpid)
+	printf("Forked Process Status %d\n", WEXITSTATUS(status));
+      else
+	printf("Error Waiting For The Forked Process\n");
+      printf("Parent Process Resuming\n");
+    }
+  printf("Parent Process Stopping\n");
+
+  return 0;
+}

@@ -1,0 +1,13 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {2}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {3}{Filesystem structure in Linux}{6}{0}{2}
+\beamer@subsectionintoc {3}{1}{/ - Root }{6}{0}{2}
+\beamer@subsectionintoc {3}{2}{/bin - User binaries}{11}{0}{2}
+\beamer@subsectionintoc {3}{3}{/dev - Device files}{18}{0}{2}
+\beamer@subsectionintoc {3}{4}{/etc - System Config}{22}{0}{2}
+\beamer@subsectionintoc {3}{5}{/home - User home directories}{25}{0}{2}
+\beamer@subsectionintoc {3}{6}{/lib - Library and Kernel modules}{29}{0}{2}
+\beamer@subsectionintoc {3}{7}{/media Mount point}{31}{0}{2}
+\beamer@subsectionintoc {3}{8}{/proc - A virtual Filesystem}{35}{0}{2}
+\beamer@subsectionintoc {3}{9}{/usr User-share and Read-only data}{39}{0}{2}
+\beamer@subsectionintoc {3}{10}{/var, /tmp Variable data}{40}{0}{2}

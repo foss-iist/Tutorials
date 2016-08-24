@@ -1,0 +1,6 @@
+Without Defining a,
+
+gcc Main.c -o Main
+
+With a defined,
+gcc Main.c -o Main -Da

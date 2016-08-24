@@ -1,0 +1,29 @@
+#! /bin/sh
+
+gdialog --title "Hello World" --msgbox "Welcome to my Simple Survey" 9 18
+
+#gdialog --title "Check me" --checklist "Pick Numbers" 15 25 3 1 "one" "off" 2 "two" "off" 3 "three" "of"
+
+gdialog --title "Confirm" --yesno "Are you willing to take part?" 9 18
+if [ $? != 0 ]; then
+    gdialog --infobox "Thank You Anyway!" 5 20
+    sleep 2
+    gdialog --clear
+    exit 0
+fi
+
+gdialog --title "Questionnaire" --inputbox "Please enter your Name" 9 30 2>_1.txt
+Q_NAME=$(cat _1.txt)
+
+gdialog --menu "$Q_NAME, what music do you like best?" 15 30 4 1 "Classical" 2 "Jazz" 3 "Country" 4 "Other" 2>_1.txt
+Q_MUSIC=$(cat _1.txt)
+
+case "$Q_MUSIC" in
+    1 ) gdialog --title "Likes Classical" --msgbox "Good choice!" 12 25;;
+    * ) gdialog --title "Doesn't like Classical" --msgbox "Shame" 12 25;;
+esac
+
+sleep 2
+gdialog --clear
+
+exit 0

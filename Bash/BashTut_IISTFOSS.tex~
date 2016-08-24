@@ -1,0 +1,307 @@
+\documentclass{beamer}
+\usetheme{Goettingen}
+
+\usepackage{hyperref}
+\usepackage{fancybox}
+
+
+\title[Bash]{Introduction to Shell Programming in Bash}
+\subtitle{3. Introduction to Scientific Computing with Linux\\Part
+  III. Basic Computing}
+\author[Nidish, B. N.]{Nidish Narayanaa B\inst{1}}
+\institute[IIST]{
+  \inst{1}%
+  Department of Aerospace Engineering\\
+  Indian Institute of Space Science \& Technology, Trivandrum
+}
+
+\date[IISTFOSS, 16]{FOSS Club, IIST, 2016}
+\subject{BashTut_IISTFOSS}
+
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>{Outline}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+\begin{document}
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Outline}
+  \tableofcontents
+\end{frame}
+
+\section{Introduction}
+\begin{frame}[fragile]{The Shell}
+  \begin{quotation}
+    A shell is a program acting as an interface between the user and
+    the linux system, allowing one to enter other programs that the
+    system should execute
+  \end{quotation}
+  \begin{itemize}
+    \item The GNU \emph{B}ourne \emph{a}gain \emph{sh}ell (Bash) and
+      the \emph{C} \emph{sh}ell (Csh) are the most common ``flavours''
+      of shells in linux
+    \item Our discussion will be concentrated upon Bash
+  \end{itemize}
+  \begin{center}
+    \includegraphics[width=.4\linewidth]{Figs/system.png}
+  \end{center}
+\end{frame}
+
+\begin{frame}[fragile]{Programming in the Shell}
+  \begin{itemize}
+    \item The shell uses an interpreted language, parsing each
+      statement as one or more programs with their arguments
+    \item One of the main reasons to use the shell is you can do your
+      job simply and quickly
+    \item Batch processing, bulk conversion, etc. of files are just a
+      short script away
+    \item Shell scripts are used when efficiency may take a back hand
+      whilst maintining a coherence work sequence comes to the fore
+    \item They may be used to run commands in predetermined (even
+      conditioned) sequences
+  \end{itemize}
+\end{frame}
+
+\section{Syntaxes and Examples}
+\begin{frame}[fragile]{Starting Off}
+  \begin{columns}
+    \begin{column}{0.3\textwidth}
+      \textbf{A Sample Program}
+\begin{verbatim}
+#!/bin/sh
+
+# A comment
+for file in *
+do
+    echo $file
+done
+
+exit 0  
+\end{verbatim}
+    \end{column}
+    \begin{column}{0.7\textwidth}
+      \textbf{Notes}
+      \begin{itemize}
+        \item The first line of each script must contain the location
+          to the shell program (\verb|sh| in this case) following
+          \verb|#!|
+        \item All statements following a \verb|#| are ignored as
+          comments
+        \item The \verb|exit| command produces a return value
+        \item To make the script executable, run
+\begin{verbatim}
+sudo chmod +x script.sh
+\end{verbatim}
+        \item It is prudent to save shell scripts with a ``.sh''
+          extension 
+      \end{itemize}
+    \end{column}    
+  \end{columns}
+\end{frame}
+
+\subsection{Variables}
+\subsection{An Example}
+\begin{frame}[fragile]{Variables}
+  \begin{itemize}
+    \item By default variables are strings in Bash
+    \item To assign a variable use the \verb|``=''| sign
+\begin{verbatim}
+$> var1=Hello
+$> var2="Hello World"
+\end{verbatim}
+    \item Since by default space is the escape sequence, strings with
+      space have to be enclosed in double quotes
+    \item The value of a variable is accessed using the \verb+``$"+
+      character. For example, to print the value of \verb+var2+ onto
+      the screen we use,
+\begin{verbatim}
+$> echo "$var2"
+\end{verbatim}
+    \item To \textbf{read} from user input we use,
+\begin{verbatim}
+$> read var2
+\end{verbatim}
+    \item For outputting text as is use single quotes or precede the
+      special characters by a backslash (\textbackslash{})
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Environment Variables}
+  \begin{itemize}
+  \item Since the Linux system itself is presented through a Bash
+    interface, there are several variables pre-defined in the
+    ``environment''
+  \item Most of them denote to particular file addresses to aid ease
+    of access
+  \item For example the variable \verb+HOME+ points to
+    \verb+/home/nidish_ubuntu1604+ in my pc. It points to the home
+    directory
+  \item Another example would be the \verb|PATH| variable. It stores
+    the locations the system searches in when programs are
+    called. Programs stored in \verb|PATH| may be invoked with their
+    names from anywhere in the system. \verb+$> echo $PATH$+ throws
+    back in my system,
+\begin{verbatim}
+/home/nidish_ubuntu1604/bin:/usr/local/sbin:
+/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:
+/usr/games:/usr/local/games:/snap/bin:
+/home/nidish_ubuntu1604/Tisean
+\end{verbatim}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Environment Variables}
+  \begin{itemize}
+  \item In some cases it may be necessary for us to \textbf{add} to
+    existing variables without removing the current values
+  \item For example, to add the path of a development folder to the
+    \verb|PATH| we use,
+\begin{verbatim}
+$> export PATH="$PATH:$HOME/Development/bin"
+\end{verbatim}
+  \item This change will be valid only for the current terminal
+    session. To make it global, you could type it into the file
+    \verb|$HOME/.bashrc| (You need superuser privileges for this)
+  \item Note that the \verb|.bashrc| file will not be visible in a
+    graphical file explorer since the name starts with a "."
+  \item To view all such configuration files, go to your terminal and
+    use \verb|ls| with the \verb|-a| flag
+\begin{verbatim}
+$> cd $HOME
+$> ls -a
+\end{verbatim}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Variables}{Operations on Variables}
+  \begin{itemize}
+  \item Almost all the scenarios where Bash scripting is necessary
+    involve file conversions and other operations requiring the
+    system to manipulate file names one by one
+  \item We make a list of the most handy operations that may be
+    performed on Variables. In all the below examples \verb+par+ is
+    taken as a variable\\
+    \begin{center}
+      \begin{tabular}{|c|c|}
+        \hline
+        \verb|${par:-bar}|&Use value of \verb+par+ if it exists\\
+                          &``bar'' if not\\\hline
+        \verb|${par:=bar}|&Use value of \verb+par+ if it exists\\
+                          &assign ``bar'' if not\\\hline
+        \verb|${par:+bar}|&Return ``bar'' if par exists\\
+                          &Not equalling to \verb+NULL+\\\hline
+        \verb|${#par}|&Returns length of the variable\\\hline 
+      \end{tabular}
+    \end{center}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Variables}{Formatting}
+  \begin{itemize}
+  \item We list some more operations
+    \begin{center}
+      \begin{tabular}{|c|c|}
+        \hline
+        \verb|${par%word}|&Returns \verb+$par+ with the\\
+                    &smallest part from the end\\
+                    &matching \verb|word| removed\\\hline
+        \verb|${par%%word}|&Returns \verb+$par$+ with the\\
+                    &longest part from the end\\
+                    &matching \verb|word| removed\\\hline
+        \verb|${par#word}|&Returns \verb+$par$+ with the\\
+                      &smallest part from the beginning\\
+                      &matching \verb|word| removed\\\hline
+        \verb|${par##word}|&Returns \verb+$par$+ with the\\
+                    &longest part from the beginning\\
+                    &matching \verb|word| removed\\\hline
+      \end{tabular}
+    \end{center}
+  \item These tend to come in very handy when we're dealing with
+    converting a set of files and renaming them with appropriate
+    extensions
+  \end{itemize}
+\end{frame}
+
+\subsection{Parameters}
+\begin{frame}[fragile]{Parameters}{Command-Line Arguments to Bash
+    Scripts} 
+  \begin{itemize}
+  \item Command-line arguments may be passed to a Bash Script
+  \item The following list the symbols that may be used to access
+    information about the passed arguments 
+    \begin{tabular}{|c|c|}
+      \hline
+      \verb|$#|&Number of Arguments passed\\
+      \hline
+      \verb|$0,$1,$2..|&zeroth argument(script name),\\
+      &and other arguments\\
+      \hline
+      \verb|$*|&comma-separated list of all\\
+      &the arguments(excluding script name)\\
+      \hline
+      \verb|$@|&space-separated list of all\\
+      &the arguments(excluding script name)\\
+      \hline
+      \verb|IFS|&This stores the default field\\
+      &separator used to parse the arguments\\
+      \hline
+    \end{tabular}
+  \item There are ways to work with command line arguments more
+    efficiently, for example by using the \verb|getopt| binary. We
+    wiill not go into this presently
+  \end{itemize}
+\end{frame}
+
+\subsection{Conditionals}
+\begin{frame}[fragile]{Conditionals}
+  \begin{itemize}
+  \item In Bash all the variables are fundamentally strings denoting
+    file/folder names. The conditionals are built around this.\\
+    \textbf{The} \verb+test+ \textbf{Command}
+  \item This command (refer the man page) returns $0$ if the condition
+    is satisfied and $1$ if not. The \verb|if| command takes input in
+    this format.
+  \item Alternately, the \verb+test+ command may be called using the
+    ``\verb|[|'' character. Closing the test statement using
+    ``\verb|]|'' is a recommended practice.
+  \item The options that may be passed to it are classified into,
+    \begin{enumerate}
+    \item File Conditionals
+    \item String Conditionals
+    \item Arithmetic Conditionals
+    \end{enumerate}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Conditionals}{The test Command}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        \textbf{File Conditionals}\\
+        \begin{tabular}{|c|c|}
+          \hline \textbf{Call}&\textbf{True if}\\\hline
+          [ -f file ]&regular file\\\hline
+          [ -d file ]&directory\\\hline
+          [ -x file ]&executable\\\hline
+          [ -s file ]&size non-zero\\\hline
+          [ -r file ]&readable\\\hline
+          [ -w file ]&writable\\\hline
+        \end{tabular}
+      \end{center}
+    \end{column}
+    \begin{column}{0.5\textwidth}
+      \begin{center}
+        \textbf{String Conditionals}\\
+      \end{center}
+    \end{column}
+  \end{columns}
+\end{frame}
+\subsection{Loops}
+\subsection{Functions and Commands}
+
+\end{document}

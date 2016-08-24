@@ -1,0 +1,10 @@
+#include<getopt.h>
+#include<stdio.h>
+#include<stdlib.h>
+
+const struct op_long[] = {
+  {"help", 0, NULL, 'h'},
+  {"value_a", 1, NULL, 'a'},
+  {"value_b", 1, NULL, 'b'},
+  {NULL, 0, NULL, 0}
+};

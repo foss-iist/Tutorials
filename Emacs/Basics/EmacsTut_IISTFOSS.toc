@@ -1,0 +1,10 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Text Editting - IDEs, Text Editors and Emacs}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Some Flashy Stuff}{5}{0}{1}
+\beamer@sectionintoc {2}{The Nitty-Gritties}{17}{0}{2}
+\beamer@subsectionintoc {2}{1}{Basics}{17}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{1}{Installation}{18}{0}{2}
+\beamer@subsubsectionintoc {2}{1}{2}{Basic Commands}{19}{0}{2}
+\beamer@subsectionintoc {2}{2}{Intermediate}{50}{0}{2}
+\beamer@subsectionintoc {2}{3}{Org-Mode}{57}{0}{2}
