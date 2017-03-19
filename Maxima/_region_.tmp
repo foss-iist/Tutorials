@@ -1,0 +1,2 @@
+diff(sin(x^2),x);
+integrate(4*x*cos(x),x,0,x);

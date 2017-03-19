@@ -1,0 +1,2 @@
+eq2:sin(x)=y;
+scsimp(expr,eq1,eq2);
