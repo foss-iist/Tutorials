@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.3.5)  19 MAR 2017 14:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.3.5)  22 MAR 2017 16:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1322,26 +1322,26 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 39.
+(hyperref)                removing `subscript' on input line 35.
 
 (./MaximaTut_IISTFOSS.aux)
 \openout1 = `MaximaTut_IISTFOSS.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 43.
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1410,7 +1410,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box79
-Package hyperref Info: Link coloring OFF on input line 47.
+Package hyperref Info: Link coloring OFF on input line 43.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1420,9 +1420,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count278
 )
-LaTeX Info: Redefining \ref on input line 47.
-LaTeX Info: Redefining \pageref on input line 47.
-LaTeX Info: Redefining \nameref on input line 47.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 (./MaximaTut_IISTFOSS.out) (./MaximaTut_IISTFOSS.out)
 \@outlinefile=\write7
@@ -1453,7 +1453,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 47.
+LaTeX Info: Redefining \includegraphics on input line 43.
 \c@lstlisting=\count279
 
 (./MaximaTut_IISTFOSS.nav) [1
@@ -1464,45 +1464,45 @@ png> <./FS-img2.png> <./FS-img3.png>]
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 61.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 57.
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 61.
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 57.
  [3
 
 ]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 73.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 69.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 73.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 69.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 73.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 69.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 73.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 69.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 73.
+(Font)              <8> on input line 69.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 73.
+(Font)              <6> on input line 69.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 73.
-LaTeX Font Info:    Try loading font information for U+msa on input line 73.
+(Font)              <5> on input line 69.
+LaTeX Font Info:    Try loading font information for U+msa on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 73.
+LaTeX Font Info:    Try loading font information for U+msb on input line 69.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1516,44 +1516,44 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 99.
+(Font)              <12> on input line 95.
 
-<Figs/cli.png, id=154, 644.4075pt x 379.4175pt>
+<Figs/cli.png, id=160, 644.4075pt x 379.4175pt>
 File: Figs/cli.png Graphic file (type png)
  <use Figs/cli.png>
-Package pdftex.def Info: Figs/cli.png used on input line 99.
+Package pdftex.def Info: Figs/cli.png used on input line 95.
 (pdftex.def)             Requested size: 221.45006pt x 130.38391pt.
  [8
 
- <./Figs/cli.png>] <Figs/xmaxima.png, id=162, 1371.1225pt x 746.79pt>
+ <./Figs/cli.png>] <Figs/xmaxima.png, id=168, 1371.1225pt x 746.79pt>
 File: Figs/xmaxima.png Graphic file (type png)
 
 <use Figs/xmaxima.png>
-Package pdftex.def Info: Figs/xmaxima.png used on input line 99.
+Package pdftex.def Info: Figs/xmaxima.png used on input line 95.
 (pdftex.def)             Requested size: 221.45006pt x 120.60555pt.
  [9
 
  <./Figs/xmaxima.png>]
-<Figs/wxmaxima.png, id=170, 1371.1225pt x 746.79pt>
+<Figs/wxmaxima.png, id=176, 1371.1225pt x 746.79pt>
 File: Figs/wxmaxima.png Graphic file (type png)
  <use Figs/wxmaxima.png>
-Package pdftex.def Info: Figs/wxmaxima.png used on input line 99.
+Package pdftex.def Info: Figs/wxmaxima.png used on input line 95.
 (pdftex.def)             Requested size: 221.45006pt x 120.60555pt.
 
 [10
 
- <./Figs/wxmaxima.png>] <Figs/imaxima.png, id=178, 1371.1225pt x 770.88pt>
+ <./Figs/wxmaxima.png>] <Figs/imaxima.png, id=185, 1371.1225pt x 770.88pt>
 File: Figs/imaxima.png Graphic file (type png)
 
 <use Figs/imaxima.png>
-Package pdftex.def Info: Figs/imaxima.png used on input line 99.
+Package pdftex.def Info: Figs/imaxima.png used on input line 95.
 (pdftex.def)             Requested size: 221.45006pt x 124.49606pt.
  [11
 
  <./Figs/imaxima.png>]
 File: Figs/wxmaxima.png Graphic file (type png)
  <use Figs/wxmaxima.png>
-Package pdftex.def Info: Figs/wxmaxima.png used on input line 99.
+Package pdftex.def Info: Figs/wxmaxima.png used on input line 95.
 (pdftex.def)             Requested size: 221.45006pt x 120.60555pt.
 
 [12
@@ -1569,13 +1569,13 @@ Package pdftex.def Info: Figs/wxmaxima.png used on input line 99.
 ]
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 151.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 147.
 
 
 (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 151--151
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 147--147
  []  
  []
 
@@ -1584,10 +1584,10 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 151--151
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 151.
+(amsmath)                 on input line 147.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 151--151
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 147--147
  []  
  []
 
@@ -1597,14 +1597,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 151--151
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 192--192
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 189--189
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 192--192
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 189--189
  []  
  []
 
@@ -1614,14 +1614,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 192--192
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 192--192
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 189--189
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 192--192
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 189--189
  []  
  []
 
@@ -1631,14 +1631,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 192--192
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 263--263
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 260--260
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 263--263
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 260--260
  []  
  []
 
@@ -1648,14 +1648,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 263--263
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 263--263
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 260--260
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 263--263
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 260--260
  []  
  []
 
@@ -1665,7 +1665,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 263--263
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 263--263
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 260--260
  []  
  []
 
@@ -1675,7 +1675,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 263--263
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 263--263
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 260--260
  []  
  []
 
@@ -1685,14 +1685,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 263--263
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 263--263
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 260--260
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 263--263
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 260--260
  []  
  []
 
@@ -1706,16 +1706,16 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 263--263
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-<Figs/plot2d.pdf, id=327, 642.4pt x 449.68pt>
+<Figs/plot2d.pdf, id=335, 642.4pt x 449.68pt>
 File: Figs/plot2d.pdf Graphic file (type pdf)
  <use Figs/plot2d.pdf>
-Package pdftex.def Info: Figs/plot2d.pdf used on input line 362.
+Package pdftex.def Info: Figs/plot2d.pdf used on input line 359.
 (pdftex.def)             Requested size: 170.3478pt x 119.2401pt.
 
-<Figs/plot3d.pdf, id=328, 642.4pt x 449.68pt>
+<Figs/plot3d.pdf, id=336, 642.4pt x 449.68pt>
 File: Figs/plot3d.pdf Graphic file (type pdf)
  <use Figs/plot3d.pdf>
-Package pdftex.def Info: Figs/plot3d.pdf used on input line 362.
+Package pdftex.def Info: Figs/plot3d.pdf used on input line 359.
 (pdftex.def)             Requested size: 170.3478pt x 119.2401pt.
  [27
 
@@ -1723,14 +1723,14 @@ Package pdftex.def Info: Figs/plot3d.pdf used on input line 362.
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-<Figs/implicit_plot.pdf, id=354, 642.4pt x 481.8pt>
+<Figs/implicit_plot.pdf, id=362, 642.4pt x 481.8pt>
 File: Figs/implicit_plot.pdf Graphic file (type pdf)
 
 <use Figs/implicit_plot.pdf>
-Package pdftex.def Info: Figs/implicit_plot.pdf used on input line 362.
+Package pdftex.def Info: Figs/implicit_plot.pdf used on input line 359.
 (pdftex.def)             Requested size: 170.3478pt x 127.75725pt.
 
-Overfull \vbox (4.00986pt too high) detected at line 362
+Overfull \vbox (4.00986pt too high) detected at line 359
  []
 
 [28
@@ -1738,11 +1738,11 @@ Overfull \vbox (4.00986pt too high) detected at line 362
  <./Figs/implicit_plot.pdf>]
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
- <Figs/2dparam.pdf, id=371, 642.4pt x 449.68pt>
+ <Figs/2dparam.pdf, id=379, 642.4pt x 449.68pt>
 File: Figs/2dparam.pdf Graphic file (type pdf)
 
 <use Figs/2dparam.pdf>
-Package pdftex.def Info: Figs/2dparam.pdf used on input line 362.
+Package pdftex.def Info: Figs/2dparam.pdf used on input line 359.
 (pdftex.def)             Requested size: 170.3478pt x 119.2401pt.
  [29
 
@@ -1750,13 +1750,13 @@ Package pdftex.def Info: Figs/2dparam.pdf used on input line 362.
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-<Figs/torus.pdf, id=388, 642.4pt x 449.68pt>
+<Figs/torus.pdf, id=396, 642.4pt x 449.68pt>
 File: Figs/torus.pdf Graphic file (type pdf)
  <use Figs/torus.pdf>
-Package pdftex.def Info: Figs/torus.pdf used on input line 362.
+Package pdftex.def Info: Figs/torus.pdf used on input line 359.
 (pdftex.def)             Requested size: 170.3478pt x 119.2401pt.
 
-Overfull \vbox (15.95679pt too high) detected at line 362
+Overfull \vbox (15.95679pt too high) detected at line 359
  []
 
 [30
@@ -1764,11 +1764,11 @@ Overfull \vbox (15.95679pt too high) detected at line 362
  <./Figs/torus.pdf>]
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
- <Figs/cntr.pdf, id=405, 642.4pt x 449.68pt>
+ <Figs/cntr.pdf, id=413, 642.4pt x 449.68pt>
 File: Figs/cntr.pdf Graphic file (type pdf)
 
 <use Figs/cntr.pdf>
-Package pdftex.def Info: Figs/cntr.pdf used on input line 362.
+Package pdftex.def Info: Figs/cntr.pdf used on input line 359.
 (pdftex.def)             Requested size: 170.3478pt x 119.2401pt.
  [31
 
@@ -1776,16 +1776,16 @@ Package pdftex.def Info: Figs/cntr.pdf used on input line 362.
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 362--362
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 359--359
  []  
  []
 
 [32
 
-] <Figs/discont.pdf, id=431, 642.4pt x 481.8pt>
+] <Figs/discont.pdf, id=440, 642.4pt x 481.8pt>
 File: Figs/discont.pdf Graphic file (type pdf)
  <use Figs/discont.pdf>
-Package pdftex.def Info: Figs/discont.pdf used on input line 362.
+Package pdftex.def Info: Figs/discont.pdf used on input line 359.
 (pdftex.def)             Requested size: 204.41943pt x 153.31165pt.
 
 [33
@@ -1798,7 +1798,7 @@ Package pdftex.def Info: Figs/discont.pdf used on input line 362.
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 460--460
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 457--457
  []  
  []
 
@@ -1808,12 +1808,12 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 460--460
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 460--460
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 457--457
  []  
  []
 
 
-Overfull \vbox (2.31287pt too high) detected at line 460
+Overfull \vbox (2.31287pt too high) detected at line 457
  []
 
 [37
@@ -1822,7 +1822,7 @@ Overfull \vbox (2.31287pt too high) detected at line 460
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 460--460
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 457--457
  []  
  []
 
@@ -1832,7 +1832,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 460--460
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 460--460
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 457--457
  []  
  []
 
@@ -1842,12 +1842,12 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 460--460
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 460--460
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 457--457
  []  
  []
 
 
-Overfull \vbox (4.58917pt too high) detected at line 460
+Overfull \vbox (4.58917pt too high) detected at line 457
  []
 
 [40
@@ -1856,7 +1856,7 @@ Overfull \vbox (4.58917pt too high) detected at line 460
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 460--460
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 457--457
  []  
  []
 
@@ -1866,7 +1866,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 460--460
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 460--460
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 457--457
  []  
  []
 
@@ -1876,14 +1876,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 460--460
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 460--460
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 457--457
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 460--460
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 457--457
  []  
  []
 
@@ -1897,7 +1897,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 460--460
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 506--506
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 503--503
  []  
  []
 
@@ -1907,14 +1907,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 506--506
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 506--506
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 503--503
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 506--506
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 503--503
  []  
  []
 
@@ -1934,7 +1934,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 506--506
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 554--554
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 551--551
  []  
  []
 
@@ -1953,14 +1953,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 554--554
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 653--653
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 650--650
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 653--653
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 650--650
  []  
  []
 
@@ -1970,7 +1970,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 653--653
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 653--653
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 650--650
  []  
  []
 
@@ -1980,7 +1980,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 653--653
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 653--653
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 650--650
  []  
  []
 
@@ -1990,14 +1990,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 653--653
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 653--653
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 650--650
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 653--653
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 650--650
  []  
  []
 
@@ -2007,14 +2007,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 653--653
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 653--653
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 650--650
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 653--653
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 650--650
  []  
  []
 
@@ -2024,7 +2024,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 653--653
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 690--690
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 687--687
  []  
  []
 
@@ -2034,7 +2034,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 690--690
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 690--690
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 687--687
  []  
  []
 
@@ -2044,7 +2044,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 690--690
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 690--690
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 687--687
  []  
  []
 
@@ -2054,7 +2054,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 690--690
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 690--690
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 687--687
  []  
  []
 
@@ -2064,14 +2064,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 690--690
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 768--768
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 765--765
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 768--768
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 765--765
  []  
  []
 
@@ -2081,14 +2081,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 768--768
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 768--768
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 765--765
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 768--768
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 765--765
  []  
  []
 
@@ -2098,14 +2098,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 768--768
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 768--768
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 765--765
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 768--768
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 765--765
  []  
  []
 
@@ -2115,14 +2115,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 768--768
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 768--768
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 765--765
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 768--768
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 765--765
  []  
  []
 
@@ -2136,14 +2136,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 768--768
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 931--931
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 931--931
  []  
  []
 
@@ -2153,14 +2153,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 931--931
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 931--931
  []  
  []
 
@@ -2170,14 +2170,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 931--931
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 931--931
  []  
  []
 
@@ -2187,14 +2187,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 931--931
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 931--931
  []  
  []
 
@@ -2204,19 +2204,19 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (5.92343pt too wide) in paragraph at lines 934--934
+Overfull \hbox (5.92343pt too wide) in paragraph at lines 931--931
 $[] 
  []
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 931--931
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 931--931
  []  
  []
 
@@ -2226,7 +2226,7 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 931--931
  []  
  []
 
@@ -2236,14 +2236,14 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 931--931
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 931--931
  []  
  []
 
@@ -2253,95 +2253,96 @@ Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 931--931
  []  
  []
 
 \openout5 = `MaximaTut_IISTFOSS.tmp'.
 
 
-Overfull \hbox (2.61107pt too wide) in paragraph at lines 934--934
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 931--931
  []  
  []
 
 
-Overfull \vbox (1.86913pt too high) detected at line 934
+Overfull \vbox (1.86913pt too high) detected at line 931
  []
 
 [76
 
 ] [77
 
+] (./MaximaTut_IISTFOSS.toc) [78
+
 ]
 \openout4 = `MaximaTut_IISTFOSS.vrb'.
 
- (./MaximaTut_IISTFOSS.vrb) [78
+ (./MaximaTut_IISTFOSS.vrb) [79
+
+]
+\openout4 = `MaximaTut_IISTFOSS.vrb'.
+
+
+(./MaximaTut_IISTFOSS.vrb) [80
 
 ]
 \openout4 = `MaximaTut_IISTFOSS.vrb'.
 
  (./MaximaTut_IISTFOSS.vrb
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2015/06/04 1.6 listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2015/06/04 1.6 listings language file
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 3.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 3.
+<Figs/JB.png, id=878, 438.63875pt x 440.64626pt>
+File: Figs/JB.png Graphic file (type png)
+ <use Figs/JB.png>
+Package pdftex.def Info: Figs/JB.png used on input line 6.
+(pdftex.def)             Requested size: 170.3478pt x 171.1319pt.
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 33.
 
-Overfull \hbox (1.30788pt too wide) in paragraph at lines 3--4
-[][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (13.308pt too wide) in paragraph at lines 16--17
-[][][][][][][][][][][] 
- []
-
-<Figs/imaxima_demo.png, id=839, 1370.11874pt x 769.87625pt>
-File: Figs/imaxima_demo.png Graphic file (type png)
-
-<use Figs/imaxima_demo.png>
-Package pdftex.def Info: Figs/imaxima_demo.png used on input line 21.
-(pdftex.def)             Requested size: 272.55751pt x 153.1502pt.
-) [79
-
-] [80
-
-
- <./Figs/imaxima_demo.png>]
-\openout4 = `MaximaTut_IISTFOSS.vrb'.
-
-
-(./MaximaTut_IISTFOSS.vrb
-LaTeX Font Info:    Try loading font information for OMS+lmss on input line 16.
-
-LaTeX Font Info:    No file OMSlmss.fd. on input line 16.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 33.
 
 
 LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textasteriskcentered' on input line 16.
+(Font)              for symbol `textasteriskcentered' on input line 33.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 16.
+(Font)              <10.95> on input line 33.
 
-Overfull \hbox (0.94716pt too wide) in paragraph at lines 27--28
+Overfull \hbox (0.94716pt too wide) in paragraph at lines 41--42
 [][][][][][][][][][][][][][] 
  []
 
 ) [81
 
-] [82
+ <./Figs/JB.png>] [82
 
 
 ] [83
 
 
 ] [84
+
+
+]
+\openout4 = `MaximaTut_IISTFOSS.vrb'.
+
+ (./MaximaTut_IISTFOSS.vrb
+<Figs/imaxima_demo.png, id=909, 1370.11874pt x 769.87625pt>
+File: Figs/imaxima_demo.png Graphic file (type png)
+
+<use Figs/imaxima_demo.png>
+Package pdftex.def Info: Figs/imaxima_demo.png used on input line 23.
+(pdftex.def)             Requested size: 340.6956pt x 191.43481pt.
+) [85
+
+] [86
+
+
+ <./Figs/imaxima_demo.png>]
+\openout4 = `MaximaTut_IISTFOSS.vrb'.
+
+
+(./MaximaTut_IISTFOSS.vrb) [87
+
+] [88
 
 ]
 \tf@nav=\write8
@@ -2353,31 +2354,31 @@ Overfull \hbox (0.94716pt too wide) in paragraph at lines 27--28
 \tf@snm=\write10
 \openout10 = `MaximaTut_IISTFOSS.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1043.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1043.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1098.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1098.
  (./MaximaTut_IISTFOSS.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1043.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1043.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1098.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1098.
 
 Package rerunfilecheck Info: File `MaximaTut_IISTFOSS.out' has not changed.
-(rerunfilecheck)             Checksum: 261D03ACA73C888859789E7337EED332;679.
+(rerunfilecheck)             Checksum: B2F14371D900A2E3B59BCAE5EFE56176;738.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 28283 strings out of 493013
- 519410 string characters out of 6135683
- 594487 words of memory out of 5000000
- 31063 multiletter control sequences out of 15000+600000
- 98024 words of font info for 90 fonts, out of 8000000 for 9000
+ 27870 strings out of 493013
+ 514789 string characters out of 6135683
+ 576622 words of memory out of 5000000
+ 30644 multiletter control sequences out of 15000+600000
+ 83108 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,20n,65p,10420b,1610s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/l
-m/lm-ec.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
+ 56i,20n,65p,10420b,1432s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
+ips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
+-mathsy.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
 0.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/font
 s/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb>
 </usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type
@@ -2390,12 +2391,12 @@ hare/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public
 pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pfb></usr/share/texmf/fonts
 /type1/public/lm/lmsso8.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
 </usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/symbols/msam10.pfb>
-Output written on MaximaTut_IISTFOSS.pdf (84 pages, 1470645 bytes).
+/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on MaximaTut_IISTFOSS.pdf (88 pages, 1522637 bytes).
 PDF statistics:
- 999 PDF objects out of 1000 (max. 8388607)
- 840 compressed objects within 9 object streams
- 181 named destinations out of 1000 (max. 500000)
- 231 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1061 PDF objects out of 1200 (max. 8388607)
+ 896 compressed objects within 9 object streams
+ 190 named destinations out of 1000 (max. 500000)
+ 244 words of extra memory for PDF output out of 10000 (max. 10000000)
 

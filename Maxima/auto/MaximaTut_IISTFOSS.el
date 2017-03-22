@@ -28,6 +28,8 @@
     "url"
     "amsmath"
     "bm"
-    "listings"))
+    "listings")
+   (TeX-add-symbols
+    '("pdderiv" ["argument"] 1)))
  :latex)
 

@@ -10,3 +10,4 @@
 \beamer@subsectionintoc {6}{2}{Taylor Series}{59}{0}{6}
 \beamer@subsectionintoc {6}{3}{Symbolic Integration}{63}{0}{6}
 \beamer@sectionintoc {7}{Symbolic Manipulations}{68}{0}{7}
+\beamer@sectionintoc {8}{Programming with Maxima}{78}{0}{8}

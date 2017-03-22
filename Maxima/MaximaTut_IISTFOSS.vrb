@@ -1,45 +1,7 @@
-\frametitle{A quick example}
-  \begin{equation*}
-    \begin{split}
-      F_r &= -\mu RL{\left(\frac{L}{c}\right)}^2 \left[
-        (\omega-2\dot{\phi}) \frac{\epsilon^2}{{(1-\epsilon^2)}^2} +
-        \frac{\pi}{2}\frac{(1+2\epsilon^2)\dot{\epsilon}}{{(1-\epsilon^2)}^{5/2}}
-      \right]\\
-      F_t &= \mu RL{\left(\frac{L}{c}\right)}^2 \left[ (\omega-2\dot{\phi})
-        \frac{\pi}{4}\frac{\epsilon}{{(1-\epsilon^2)}^{3/2}} +
-        \frac{2\epsilon\dot{\epsilon}}{{(1-\epsilon^2)}^2} \right]
-    \end{split}
-  \end{equation*}
-  \vspace{-0.5cm}
-\begin{lstlisting}[basicstyle=\small]
-depends([e],t)$
-ex:0.3*50.8e-6*cos(%pi/4)$
-ey:0.3*50.8e-6*cos(%pi/4)$
-exd:0.1*ex*omega$
-eyd:0.1*ey*omega$
-vals:[mu=0.00689,h[0]=50.8e-6,L=12.7e-3,R=25.4e-3,
-diff(e[x],t)=exd,diff(e[y],t)=eyd,e[x]=ex,e[y]=ey,
-omega=10000*2*%pi/60]$
-epsilon:sqrt(e[x]**2+e[y]**2)/h[0]$
-phi:atan2(e[x],e[y])$
-
-Fr:-mu*R*L*(L/h[0])**2*((omega-2*diff(phi,t))*
-epsilon**2/(1-epsilon**2)**2 + %pi*(1+2*epsilon**2)*
-diff(epsilon,t)/(2*(1-epsilon**2)**(5/2)))$
-
-Ft:mu*R*L*(L/h[0])**2*((omega-2*diff(phi,t))*
-% pi*epsilon/(4*(1-epsilon**2)**(3/2)) +
-2*epsilon*diff(epsilon,t)/(1-epsilon**2)**2)$
-
-Fx:radcan(Fr*cos(phi)-Ft*sin(phi))$
-Fy:radcan(Fr*sin(phi)+Ft*cos(phi))$
-
-FxFy:transpose(matrix([Fx,Fy]))$
-
-float(subst(vals,FxFy));
-float(subst(vals,diff(FxFy,e[x])));
-float(subst(vals,diff(FxFy,e[y])));
-float(subst(vals,diff(FxFy,diff(e[x],t))));
-float(subst(vals,diff(FxFy,diff(e[y],t))));
-
-\end{lstlisting}
+\frametitle{Useful Links}
+  \begin{enumerate}
+  \item \url{http://maxima.sourceforge.net/}
+  \item \url{https://sourceforge.net/projects/wxmaxima/} (recommended
+    front end)
+  \item \url{http://web.csulb.edu/~woollett/} (great resources)
+  \end{enumerate}
